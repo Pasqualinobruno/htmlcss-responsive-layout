@@ -1,0 +1,33 @@
+/*#region utility*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    max-width: 1152px;
+    width: 80%;
+}
+.d-flex{
+    display: flex;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: o -1rem;
+}
+[class^="col-"]{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.col-4{
+    width: calc((100%/12)*4);
+}
+.col-8{
+    width: calc((100%/12)*8);
+}
+.col-12{
+    width: 100%;
+}
+/*#endregion utility*/
