@@ -37,6 +37,15 @@ ul{
 a{
     text-decoration: none;
 }
+img{
+    max-width: 100%;
+}
+.padding10{
+    padding: 10px;
+}
+.border-radius10{
+    border-radius: 50%;
+}
 /*#endregion utility*/
 
 /*#region debug*/
@@ -45,16 +54,28 @@ a{
     background-color: brown;
 }
 .debug main{
-    height: 300px;
+    height: 100%;
     background-color: aquamarine;
 }
 .debug .col-8{
     border: 2px solid rgb(0, 0, 0);
-    height: 100px;
+    height: 300px;
 }
 .debug .col-4{
     border: 2px solid rgb(0, 0, 0);
-    height: 100px;
+    height: 300px;
+}
+.debug .testimonial{
+    height: 700px;
+    background-color: rgb(88, 231, 22);
+}  
+.debug .getstarted{
+    background-color: bisque;
+    height: 200px;
+}
+.debug footer{
+    background-color: chartreuse;
+    height: 200px;
 }
 /*#endregion debug*/
 
@@ -65,6 +86,7 @@ a{
     justify-content: center;
     color: white;
     text-align: center;
+    align-items: center;
 }
 .menu{
     text-align: center;
@@ -72,9 +94,10 @@ a{
 }
 .btn{
     background-color: white;
-    border: none;
-    padding: 15px;  
-    border-radius: 50%;
+    border: none; 
+}
+.btn-violet{
+    background-color: rgb(94, 49, 94);
 }
 .gap20{
     gap: 20px;
@@ -86,7 +109,56 @@ div>a{
     color: black;
 
 }
-
+section{
+    margin: 2rem auto;
+}
 
 
 /*#endregion header*/
+
+
+/*#region main*/
+.imgplanning{
+    height: 100px;
+}
+/*#region testimonial*/
+.testimonial{
+    text-align: center;
+    padding: 2rem;
+}
+.violet{
+    color: rgb(180, 75, 180);
+}
+.card{
+    background-color:  rgb(180, 75, 180);
+    border-radius: 10px;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    margin: 2rem 0;
+    color: white;
+}
+
+/*#endregion testimonial*/
+.card-benefit{
+    background-color: white;
+    border-radius: 5px;
+    padding: 50px;
+}
+.getstarted{
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+/*#endregion main*/
+
+@media screen and (max-width: 768px) {
+    
+}
+@media screen and (max-width: 480px) {
+    .row{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+}
