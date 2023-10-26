@@ -4,48 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap"     rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="debug">
+<body class="">
     <header>
         <nav class="container d-flex space">
             <div class="logo"><img src="./img/logo.png" alt=""></div>
-            <div class="menu gap20 d-flex">
-                <ul class="d-flex gap20 menu">
-                    <li><a href="">Planning</a></li>
-                    <li><a href="">Testimonials</a></li>
-                    <li><a href="">Features</a></li>
-                    <li><a href="">About Us</a></li>
-                </ul>
-                <div class="btn"><a href="">Get started</a></div>
+            <div class="all-menu gap20 d-flex">
+                <div class="menu-tab-phone"><i class="fa-solid fa-bars"></i></div>
+                <div class="d-flex gap20 menu">
+                    <ul class="d-flex gap20 menu">
+                        <li><a href="">Planning</a></li>
+                        <li><a href="">Testimonials</a></li>
+                        <li><a href="">Features</a></li>
+                        <li><a href="">About Us</a></li>
+                    </ul>
+                    <div class="btn btn-light"><a href="">Get started</a></div>
+                </div>
             </div>
         </nav>
     </header>
     <main>
         <section class="demo">
             <div class="container">
-                <div class="row">
-                    <div class="col-8"><div>Lorem ipsum dolor sit.
-            </div></div>
-                    <div class="col-4"><div>Lorem ipsum dolor sit.
-            </div></div>
-                    <div class="col-4"><div>Lorem ipsum dolor sit.
-            </div></div>
-                    <div class="col-4"><div>Lorem ipsum dolor sit.
-            </div></div>
-                    <div class="col-4"><div>Lorem ipsum dolor sit.
-            </div></div>
+                <d class="row">
+                    <div class="carte  col-8 col-md-8 col-lg-12">
+                        <div class="carte row d-flex color-ground-secondary">
+                            <div class="carte col-6 col-md-12 col-lg-12">
+                                <h4>Get a demo application</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id esse eligendi placeat ipsa obcaecati necessitatibus.</p> 
+                                <a class="btn btn-blu" href=""><i class="fa-brands fa-apple"></i>App store</a>
+                            </div>
+                            <div class="col-6 col-md-12 col-lg-12 padding-top"><img src="./img/phone.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="carte col-4 col-md-4 col-lg-12">
+                        <div class="carte color-ground-secondary">
+                            <div><i class="fa-solid fa-file-code fa-2xl"></i></div>
+                            <h4>Clean Code</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt recusandae a, iusto corrupti consequatur nulla.</p>
+
+                        </div>
+                    </div>
+                    <div class="carte col-4 col-md-4 col-lg-12">
+                        <div class="carte color-ground-secondary">
+                            <div><i class="fa-solid fa-compass-drafting fa-2xl"></i></div>
+                            <h4>Web Desing</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt recusandae a, iusto corrupti consequatur nulla.</p>
+                        </div>
+                    </div>
+                   <div class="carte col-4 col-md-4 col-lg-12">
+                       <div class="carte color-ground-secondary">
+                           <div><i class="fa-solid fa-laptop-code fa-2xl"></i></div>
+                           <h4>Developement</h4>
+                           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt recusandae a, iusto corrupti consequatur 
+                       </div>
+                   </div>
+                   <div class="carte col-4 col-md-4 col-lg-12">
+                       <div class="carte color-ground-secondary">
+                           <div><i class="fa-solid fa-bullhorn fa-2xl"></i></div>
+                           <h4>Branding</h4>
+                           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt recusandae a, iusto corrupti consequatur 
+                       </div>
+                   </div>
                 </div>
             </div>
         </section>
         <section class="planning">
             <div class="container">
                 <div class="row">
-                    <div class="col-8">
+                    <div class="col-8 col-md-8 col-lg-12">
                         <img class="imgplanning" src="./img/planning1.png" alt="">
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, quam!</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 col-md-4 col-lg-12">
                         <img class="imgplanning" src="./img/planning2.png" alt="">
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, aut?</p>
                     </div>
@@ -82,7 +118,7 @@
             <div class="container">
                 <h2>Benefits of working with us</h2>
                 <div class="row d-flex">
-                    <div class="col-4">
+                    <div class="col-4 col-md-4 col-lg-12">
                         <div class="card-benefit">
                             <div>01</div>
                             <div>hight Quality</div>
@@ -93,7 +129,7 @@
                             <div class="btn btn-violet"><a href="">more</a></div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 col-md-4 col-lg-12">
                         <div class="card-benefit">
                             <div>02</div>
                             <div>Creative team</div>
@@ -107,7 +143,7 @@
                             href="">more</a></div>
                         </div>
                     </div> 
-                    <div class="col-4">
+                    <div class="col-4 col-md-4 col-lg-12">
                         <div class="card-benefit">
                             <div>03</div>
                             <div>Amazing Results</div>
@@ -121,7 +157,7 @@
                             href="">more</a></div>
                         </div>
                     </div> 
-                    <div class="col-4">
+                    <div class="col-4 col-md-4 col-lg-12">
                         <div class="card-benefit">
                             <div>04</div>
                             <div>Best pricing</div>
@@ -135,7 +171,7 @@
                             href="">more</a></div>
                         </div>
                     </div> 
-                    <div class="col-4">
+                    <div class="col-4 col-md-4 col-lg-12">
                         <div class="card-benefit">
                             <div>05</div>
                             <div>Innovations</div>
@@ -149,7 +185,7 @@
                             href="">more</a></div>
                         </div>
                     </div> 
-                    <div class="col-4">
+                    <div class="col-4 col-md-4 col-lg-12">
                         <div class="card-benefit">
                             <div>06</div>
                             <div>24/7 Support</div>
@@ -171,12 +207,12 @@
         <section class="aboutus">
             <div class="container">
                 <div class="row">
-                    <div class="col-8">
+                    <div class="col-8 col-md-8 col-lg-12">
                         <h2>About Us</h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem aliquam sequi minus ex quaerat tempore fuga tempora officia pariatur omnis.</p>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ea, rem perferendis assumenda repudiandae minima illum blanditiis dolorem rerum iure!</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 col-md-4 col-lg-12">
                         <img src="" alt="">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, nisi.</p>
                         <div class="btn btn-violet">Find me on linkedin</div>
@@ -192,7 +228,7 @@
                 <h3> It's free!</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, praesentium.</p>
                 <div class="btn"><a href="">get started</a></div>
-                <p>cpyright</p>
+                <p>copyright</p>
             </div>
         </section>
     </main>
