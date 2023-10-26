@@ -59,7 +59,7 @@ img{
     max-width: 100%;
 }
 .padding10{
-    padding: 10px;
+    padding: 1rem 5rem;
 }
 .padding-top{
     padding-top: 4rem;
@@ -69,6 +69,17 @@ img{
 }
 h4{
     color: var(--res-primary);
+}
+.line{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 2rem 8rem;
+    gap: 1rem;
+    font-size: large;
+}
+.white-color{
+    color: white;
 }
 /*#endregion utility*/
 
@@ -133,7 +144,8 @@ header{
     color: black;
 }
 .btn-violet{
-    background-color: rgb(94, 49, 94);
+    background-color: var(--res-purple);
+    
 }
 .btn-blu{
     background-color: rgb(0, 81, 255);
@@ -165,8 +177,22 @@ section{
 .color-ground-secondary{
     background-color: var(--res-secondary);
 }
+.planning{
+    background-color: var(--res-purple);
+    padding: 2rem;
+}
 .imgplanning{
-    height: 100px;
+    max-width: 60%;
+}
+.app{
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 10rem;
+    padding: 2rem;
 }
 .carte{
     min-height: 100%;
@@ -190,13 +216,21 @@ section{
     color: rgb(180, 75, 180);
 }
 .card{
-    background-color:  rgb(180, 75, 180);
+    background-color:  var(--res-purple);
     border-radius: 10px;
     align-items: center;
     gap: 20px;
     padding: 10px;
     margin: 2rem 0;
     color: white;
+}
+.testimonial .card img{
+    height: 200px;
+    width: 200px;
+
+}
+.items-center{
+    align-items: center;
 }
 
 /*#endregion testimonial*/
