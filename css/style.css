@@ -84,6 +84,16 @@ h4{
 .color-purple{
     color: var(--res-purple);
 }
+p{
+    font-size: medium;
+    line-height: 1.6;
+}
+.text-aling-center{
+    text-align: center;
+}
+.text-aling-start{
+    text-align: start;
+}
 /*#endregion utility*/
 
 /*#region debug*/
@@ -204,7 +214,7 @@ section{
 }
 
 .fa-2xl {
-    font-size: 6em;
+    font-size: 4rem;
     line-height: .03125em;
     vertical-align: -0.1875em;
     padding: 3rem;
@@ -230,6 +240,7 @@ section{
 .testimonial .card img{
     height: 200px;
     width: 200px;
+    object-fit: cover;
 
 }
 .items-center{
@@ -246,6 +257,7 @@ section{
     padding: 50px;
     border-radius: 1rem;
     margin-bottom: 1rem;
+    text-align: start;
 }
 .getstarted{
     text-align: center;
@@ -262,7 +274,36 @@ section{
     flex-direction: column;
     gap: 2rem;
 }
+.aboutus .row .col-4 {
+    position: relative;
+
+    & img{
+    border-radius: 50%;
+    }
+    & p {
+        padding: 1rem;
+        color: var(--res-purple);
+    }
+    & .fa-2xl{
+        color: var(--res-purple);
+        position: absolute; top: -13px; right: -39px;
+    }
+    & div{
+        color: white;
+    }
+}
+.fa-linkedin,
+.fa-apple{
+    padding: 0.5rem;
+}
+.getstarted
+
 /*#endregion main*/
+/*#region footer*/
+footer{
+    background-color: rgba(0, 0, 0, 0.804);
+}
+/*#endregion footer*/
 
 @media screen and (max-width: 768px) {
     .col-md-4{
@@ -282,6 +323,22 @@ section{
     }
     .menu-tab-phone{
         display: block;
+    }
+    .line{
+        padding: 1rem 0;
+    }
+    .app{
+        margin-top: 1rem ;
+        padding: 0.5rem;
+    }
+    .card-benefit{
+        padding: 2rem;
+    }
+    .padding10{
+        padding: 1rem 0.5rem;
+    }
+    .card .items-center{
+        gap: 1rem;
     }
 }
 @media screen and (max-width: 480px) {
@@ -313,5 +370,9 @@ section{
     }
     .line{
         padding: 0;
+    }
+    .aboutus .row .col-4 {}
+    & img{
+        margin-top: 1rem;
     }
 }
