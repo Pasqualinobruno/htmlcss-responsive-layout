@@ -81,6 +81,9 @@ h4{
 .white-color{
     color: white;
 }
+.color-purple{
+    color: var(--res-purple);
+}
 /*#endregion utility*/
 
 /*#region debug*/
@@ -234,15 +237,30 @@ section{
 }
 
 /*#endregion testimonial*/
+.benefits{
+    background-color: var(--res-purple);
+}
 .card-benefit{
     background-color: white;
     border-radius: 5px;
     padding: 50px;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
 }
 .getstarted{
     text-align: center;
     align-items: center;
     padding: 10px;
+}
+.fa-xl {
+    font-size: 2.5rem;
+    line-height: .04167em;
+    color: var(--res-purple);
+}
+.colum{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 /*#endregion main*/
 
