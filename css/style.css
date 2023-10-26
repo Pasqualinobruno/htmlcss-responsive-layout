@@ -308,4 +308,10 @@ section{
     .menu-tab-phone{
         display: block;
     }
+    .card div{
+        display: block;
+    }
+    .line{
+        padding: 0;
+    }
 }
