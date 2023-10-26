@@ -23,6 +23,11 @@ body{
     max-width: 1152px;
     width: 80%;
 }
+.container-ms{
+    margin: auto;
+    max-width: 1152px;
+    width: 50%;
+}
 .d-flex{
     display: flex;
 }
@@ -178,15 +183,21 @@ div>a{
     color: black;
 
 }
-section{
-    margin: 2rem auto;
-}
+
+
+
 
 
 /*#endregion header*/
 
 
 /*#region main*/
+.demo div>h4, div>p{
+    margin: 1rem 0;
+}
+.demo .carte .col-6{
+    text-align: start;
+}
 .color-ground-secondary{
     background-color: var(--res-secondary);
 }
@@ -196,6 +207,20 @@ section{
 }
 .imgplanning{
     max-width: 60%;
+}
+.planning a .btn{
+    padding: 0.5rem 0.75rem;
+}
+.testimonial h4{
+    color: var(--res-purple);
+    font-size: xx-large;
+}
+.benefits .padding10{
+    padding: 2rem 0;
+}
+.benefits .card-benefit a{
+    color: white;
+    padding: 0.5rem 2.5rem;
 }
 .app{
     background-color: white;
@@ -269,13 +294,29 @@ section{
     line-height: .04167em;
     color: var(--res-purple);
 }
-.colum{
+/*.colum{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+}*/
+.benefits .card-benefit{
+    & div{
+        padding: 0.5rem 0;
+
+    }
+    & .btn{
+        margin-top: 0.25rem;
+    }
 }
+
+
+
+
 .aboutus .row .col-4 {
     position: relative;
+    & h2{
+        font-size: xx-large;
+    }
 
     & img{
     border-radius: 50%;
@@ -296,12 +337,57 @@ section{
 .fa-apple{
     padding: 0.5rem;
 }
-.getstarted
+.getstarted{
+    background-color: var(--res-purple);
+    & h4{
+        color: white;
+        font-size: larger;
+    }
+    & h6{
+        margin: 1rem;
+        color: rgba(128, 128, 128, 0.783);
+    }
+    & h3{
+        color: gold;
+        font-size: xx-large;
+        margin: 1rem;
+    }
+    & p{
+        margin: 1rem;
+        color: white;
+        font-size: large
+    }
+    & .btn{
+        color: var(--res-purple);
+        padding: 1rem 2.5rem;
+        border-radius: 2rem;
+    }
+    & p>a{
+        color: white;
+        text-decoration: underline;
+    }
+}
+.planning,
+.aboutus{
+    margin-top: 2rem;
+}
 
 /*#endregion main*/
 /*#region footer*/
 footer{
     background-color: rgba(0, 0, 0, 0.804);
+    padding: 3rem 0s;
+}
+footer .container-ms{
+    & .text-aling-center{
+       padding: 2rem 0;
+       color: white;
+    }
+    & a{
+        color: var(--res-purple);
+        text-decoration: underline;
+    }
+
 }
 /*#endregion footer*/
 
